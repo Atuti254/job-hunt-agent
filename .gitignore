@@ -1,0 +1,16 @@
+# Secrets & personal autofill data
+.env
+data/answers.json
+data/profile.md
+
+# Local database, generated PDFs & browser sessions
+data/jobs.db
+output/
+chrome-profile/
+
+# Python / environment artifacts
+.venv/
+__pycache__/
+*.pyc
+*.log
+.playwright-mcp/

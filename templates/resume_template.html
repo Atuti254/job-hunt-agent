@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  body { font-family: Arial, sans-serif; font-size: 10.5pt; line-height: 1.4; color: #111; margin: 0.5in; }
+  h1 { font-size: 18pt; margin: 0 0 4px 0; text-transform: uppercase; letter-spacing: 0.5px; }
+  .contact { font-size: 9.5pt; color: #444; margin-bottom: 14px; border-bottom: 1.5px solid #222; padding-bottom: 6px; }
+  h2 { font-size: 11.5pt; text-transform: uppercase; border-bottom: 1px solid #ccc; margin: 14px 0 6px 0; padding-bottom: 2px; }
+  p, ul { margin: 4px 0 8px 0; }
+  ul { padding-left: 18px; }
+  li { margin-bottom: 4px; }
+</style>
+</head>
+<body>
+  <h1>{{FULL_NAME}}</h1>
+  <div class="contact">{{LOCATION}} | {{EMAIL}} | {{PHONE}} | {{LINKEDIN}} | {{GITHUB}}</div>
+  <h2>Professional Summary</h2>
+  <p>{{SUMMARY}}</p>
+  <h2>Technical Skills</h2>
+  <p>{{SKILLS}}</p>
+  <h2>Experience</h2>
+  {{EXPERIENCE_HTML}}
+  <h2>Key Data Projects</h2>
+  {{PROJECTS_HTML}}
+  <h2>Education & Certifications</h2>
+  {{EDUCATION_HTML}}
+</body>
+</html>
