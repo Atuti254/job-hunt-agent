@@ -25,7 +25,7 @@
 ## Quickstart
 
 ```bash
-git clone [https://github.com/Atuti254/job-hunt-agent.git](https://github.com/Atuti254/job-hunt-agent.git)
+git clone https://github.com/Atuti254/job-hunt-agent.git
 cd job-hunt-agent
 pip install requests beautifulsoup4 playwright
 python -m playwright install chromium
